@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/bundle.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/tabla.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Halant:300,400" rel="stylesheet" type="text/css">
@@ -55,7 +54,6 @@
         <!-- End Logo container-->
         <div class="menu-extras">
           <div class="menu-item">
-            <!-- Shopping cart-->
             <div class="cart">
               <a href="#">
                 <i class="ti-bag"></i><span class="cart-number">2</span>
@@ -65,9 +63,6 @@
                   <div class="row">
                     <div class="col-xs-6">
                       <h6 class="upper">Productos</h6>
-                    </div>
-                    <div class="col-xs-6 text-right">
-                      <h6 class="upper"></h6>
                     </div>
                   </div>
                   <!-- end of row-->
@@ -100,7 +95,7 @@
                     </div>
                   </li>
                 </ul>
-                <p><a href="#" class="btn btn-color btn-block btn-sm">Confirmar Pedido</a>
+                <p><a href="Carrito.html" class="btn btn-color btn-block btn-sm">Confirmar pedido</a>
                 </p>
               </div>
             </div>
@@ -160,14 +155,14 @@
     </header>
     <!-- End Navigation Bar-->
     <section class="page-title parallax">
-      <div data-parallax="scroll" data-image-src="images/bg/2.jpg" class="parallax-bg"></div>
+      <div data-parallax="scroll" data-image-src="images/Carrito/carrito.jpg" class="parallax-bg"></div>
       <div class="parallax-overlay">
         <div class="centrize">
           <div class="v-center">
             <div class="container">
               <div class="title center">
-                <h1 class="upper">Seguimiento<span class="red-dot"></span></h1>
-                <h4></h4>
+                <h1 class="upper">Carrito de Compras<span class="red-dot"></span></h1>
+                <h4>Estamos felices de verte</h4>
                 <hr>
               </div>
             </div>
@@ -176,82 +171,104 @@
         </div>
       </div>
     </section>
-    <section style="background-color: rgb(198, 198, 223);">
+    <section>
       <div class="container">
         <div class="row">
-          <div class="col-sm-1">
-
-            <!-- end of icon box-->
-          </div>
-          <div class="col-sm-10">
-            
-
-            <div class="container">
-              <div class="wrapper">
-                <h1> Pedido #1000000416</h1>
-                <ul class="sessions">
-                  <li>
-                    <div class="time">05:00 PM</div>
-                    <p>Pedido entregado</p>
-                  </li>
-                  <li>
-                    <div class="time">03:00 PM</div>
-                    <p>Pedido en preparación</p>
-                  </li>
-                  <li>
-                    <div class="time">2:00 PM</div>
-                    <p>Pago recibido</p>
-                  </li>
-                  <li>
-                    <div class="time">1:00 PM</div>
-                    <p>Pendiente de pago</p>
-                  </li>
-                </ul>
-              </div>
-            </div> 
-
-
-
-
-            <hr>
-            <!-- end of icon box-->
-          </div>
-          <div class="col-sm-1">
-            <!-- end of icon box-->
-          </div>
-        </div>
-        <div class="row">
-          <!--<div class="col-sm-4">
-          </div>-->
-          <div class="col-sm-12">
-            <table class="tabla1" style="margin: auto;">
-              <tr class=""tabla1">
-                <th colspan="2" style="margin: auto;">Detalle</th>
-              </tr>
-              <!--<tr class="pri2">
-                <th>Fecha</th>
-                <th>Estado</th>
-              </tr>-->
-              <tr class="pri2">
-                <td class="pri2">15/10/2020 55:00 PM</td>
-                <td class="pri2">Entregado</td>
-              </tr>
-              <tr class="pri2">
-                <td class="pri2">15/10/2020 3:00 PM</td>
-                <td class="pri2">Pedido en preparación</td>
-              </tr>
-              <tr class="pri2"> 
-                <td class="pri2">15/10/2020 2:00 PM</td>
-                <td class="pri2">Pago recibido</td>
-              </tr>
-              <tr class="pri2">
-                <td class="pri2">15/10/2020 1:00 PM</td>
-                <td class="pri2">Pendiente de pago</td>
-              </tr>
+          <div class="col-md-8">
+            <table class="table cart">
+              <thead>
+                <tr>
+                  <th class="hidden-xs">Foto</th>
+                  <th>Producto</th>
+                  <th>Cantidad</th>
+                  <th>En stock</th>
+                  <th>Precio</th>
+                  <th class="hidden-xs">&nbsp;</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="hidden-xs">
+                    <a href="#">
+                      <img src="images/menu/1.jpg" alt="">
+                    </a>
+                  </td>
+                  <td><a href="#"><span>Chancho a la caja china</span></a>
+                  </td>
+                  <td>
+                    <input type="number" value="1" class="form-control">
+                  </td>
+                  <td><span class="circle"></span>
+                  </td>
+                  <td><span class="cart-price">S/. 25.00</span>
+                  </td>
+                  <td class="hidden-xs"><a href="#"><i class="ti-close"></i></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="hidden-xs">
+                    <a href="#">
+                      <img src="images/bebidas/inca-kola-2-litros-1.jpg " alt="">
+                    </a>
+                  </td>
+                  <td><a href="#"><span>Gaseosa Inka Kola 3 lt</span></a>
+                  </td>
+                  <td>
+                    <input type="number" value="2" class="form-control">
+                  </td>
+                  <td><span class="circle red"></span>
+                  </td>
+                  <td><span class="cart-price">S/. 12.00</span>
+                  </td>
+                  <td class="hidden-xs"><a href="#"><i class="ti-close"></i></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="hidden-xs">
+                    <a href="#">
+                      <img src="images/menu/6.jpg" alt="">
+                    </a>
+                  </td>
+                  <td><a href="#"><span>Chancho a la plancha</span></a>
+                  </td>
+                  <td>
+                    <input type="number" value="0" class="form-control">
+                  </td>
+                  <td><span class="circle"></span>
+                  </td>
+                  <td><span class="cart-price">S/. 29.99</span>
+                  </td>
+                  <td class="hidden-xs"><a href="#"><i class="ti-close"></i></a>
+                  </td>
+                </tr>
+              </tbody>
             </table>
           </div>
-          <!--<div class="col-sm-4">
-          </div>-->
+          <div class="col-md-3 col-md-offset-1">
+            <div class="promo-code">
+              <h6 class="upper">Aplicar cupon de Descuento</h6>
+              <hr>
+              <div class="input-group">
+                <input type="text" placeholder="Codigo de cupon" class="form-control input-group-sm"><span class="input-group-btn"><button type="button" class="btn btn-color btn-group-sm">Aplicar</button></span>
+              </div>
+            </div>
+            <div class="cart-summary">
+              <h6 class="upper">Detalles de orden</h6>
+              <hr>
+              <ul class="nav">
+                <li>Subtotal:<span class="pull-right">S/. 37.00</span>
+                </li>
+                <li>Delivery:<span class="pull-right">S/. 7.00</span>
+                </li>
+              </ul>
+              <hr>
+              <h6 class="upper">Total:<span class="pull-right">S/. 44.00</span></h6>
+            </div>
+            <p><a href="mi-carrito.html" class="btn btn-color btn-block">Confirmar pago</a>
+            </p>
+            <p><a href="#" class="btn btn-dark-out btn-block">Actualizar</a>
+            </p>
+          </div>
         </div>
         <!-- end of row-->
       </div>

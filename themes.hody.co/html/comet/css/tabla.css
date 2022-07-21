@@ -1,0 +1,119 @@
+.table1, td,th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.tabla2{
+    margin: auto;
+}
+
+td,th{
+    padding: 10px;
+}
+
+td{
+    background-color: #FFFFFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.oscuridad{
+    color: #FFBC97;
+    font-family: 'Great Vibes', cursive;
+}
+
+.elescondido{
+    color: #D9D9D9;
+}
+
+.tabla1{
+    border: 0px solid black;
+    background-color: #D9D9D9;
+}
+
+.tt3, .tt4{
+    width: 500px;
+    border: 0px solid black;
+}
+
+.tt44{
+    background-color: grey;
+    width: 150px;
+    border: 0px solid black;
+}
+.tt444{
+    background-color: grey;
+    width: 100px;
+    border: 0px solid black;
+}
+
+.tt1,.tt2{
+    background-color: #FFFFFF;
+    border-top: 2px solid black;
+    border-right: 2px solid black ;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.tt11{
+    background-color: #2F49A8;
+    border-top: 2px solid black;
+    border-right: 2px solid black ;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.tt3{
+    background-color: #D9D9D9;
+}
+
+.pri2{
+    width: 200px;
+}
+
+
+
+th{
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+.cajita{
+    background-color: #D9D9D9;
+    padding: 50px;
+    border: 8px solid black;
+}
+
+.general{
+    background-color: #D9D9D9;
+}
+
+.principal{
+    background-color: #D9D9D9;
+    width: 400px;
+}
+
+p{color: black;}
+
+.fondoNegro{
+    background-color: black;
+}
+
+.btnn {
+    padding: 0 28px;
+    height: 30px;
+    height: 25px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .btnn-color {
+    color: #fff;
+    border-color: orange;
+    background-color: orange;
+  }
